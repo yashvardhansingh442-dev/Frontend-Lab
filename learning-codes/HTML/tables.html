@@ -4,29 +4,71 @@
 
 <head>
     <title>My Eighth Website</title>
+
+    <style>
+        body {
+            background-color: #f5efe6;
+            font-family: Arial;
+            text-align: center;
+        }
+
+        h3 {
+            color: #493628;
+            font-size: 28px;
+        }
+
+        table {
+            margin: auto;
+            width: 700px;
+            border-collapse: collapse;
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        th {
+            background-color: #493628;
+            color: white;
+            padding: 15px;
+        }
+
+        td {
+            padding: 15px;
+            color: #493628;
+        }
+
+        tr:nth-child(even) {
+            background-color: #e8d8c4;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #f5efe6;
+        }
+    </style>
+
 </head>
 
-<body bgcolor="#f5efe6">
+<body>
 
     <!-- Store heading -->
-    <h3 align="center">☕ STORE HOURS</h3>
+    <h3>☕ Store Hours</h3>
 
-    <!-- Table containing store timings -->
-    <table bgcolor="white" width="700" align="center" cellpadding="15">
+    <!-- Store timings table -->
+    <table>
 
         <!-- Table headings -->
-        <tr bgcolor="#493628">
-            <th><font color="white">Sunday</font></th>
-            <th><font color="white">Monday</font></th>
-            <th><font color="white">Tuesday</font></th>
-            <th><font color="white">Wednesday</font></th>
-            <th><font color="white">Thursday</font></th>
-            <th><font color="white">Friday</font></th>
-            <th><font color="white">Saturday</font></th>
+        <tr>
+            <th>Sunday</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
         </tr>
 
         <!-- Store opening hours -->
-        <tr bgcolor="#e8d8c4" align="center">
+        <tr>
             <td>Closed</td>
             <td>9-5</td>
             <td>9-5</td>
