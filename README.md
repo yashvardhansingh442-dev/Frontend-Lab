@@ -62,9 +62,9 @@ Legend: ✅ complete | 🚧 in progress | ⬜ not started
 
 | # | Track | Status |
 |---|-------|--------|
-| 00 | Foundations (browser, HTTP, security, DevTools) | ⬜ |
-| 01 | HTML and Accessibility | ⬜ |
-| 02 | Advanced CSS | ⬜ |
+| 00 | Foundations (browser, HTTP, security, DevTools) | ✅ |
+| 01 | HTML and Accessibility | ✅ |
+| 02 | Advanced CSS | 🚧 |
 | 03 | JavaScript Deep Dive | ⬜ |
 | 04 | TypeScript | ⬜ |
 | 05 | React Advanced | ⬜ |
