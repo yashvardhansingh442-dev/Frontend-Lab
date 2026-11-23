@@ -1,0 +1,36 @@
+
+/* Selects all h1 elements */
+h1 {
+    /* Changes heading text color */
+    color: #355872;
+}
+
+/* Selects all paragraph elements */
+p {
+    /* Changes paragraph text color */
+    color: #7AAACE;
+}
+
+/* Selects all button elements */
+button {
+    /* Changes button text color */
+    color: #9CD5FF;
+}
+
+/* Selects the entire webpage */
+body {
+    /* Changes webpage background color */
+    background-color: #F7F8F0;
+}
+
+/* Selects the element with ID hello */
+#hello {
+    /* Changes text color to blue */
+    color: blue;
+}
+
+/* Selects all elements with class myclass */
+.myclass {
+    /* Changes text color */
+    color: #355872;
+}
