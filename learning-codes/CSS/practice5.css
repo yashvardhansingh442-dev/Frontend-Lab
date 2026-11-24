@@ -1,0 +1,15 @@
+/* Selects all h1 headings */
+h1 {
+    /* Converts all heading letters into uppercase */
+    text-transform: uppercase;
+
+    /* Aligns the heading text horizontally in the center */
+    text-align: center;
+}
+
+/* Selects the entire body of the webpage */
+body {
+    /* Applies Times New Roman to all text on the page.
+       Times and serif are fallback fonts. */
+    font-family: "Times New Roman", Times, serif;
+}

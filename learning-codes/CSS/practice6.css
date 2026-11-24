@@ -1,0 +1,12 @@
+/* Outer div */
+#outer {
+    font-size: 25px;
+}
+
+/* Inner div */
+#inner {
+    font-size: 10px;
+}
+body {
+    font-family: Arial, sans-serif;
+}
