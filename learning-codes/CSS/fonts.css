@@ -1,0 +1,79 @@
+
+/* Sets the background color of the webpage to black */
+body {
+    background-color: black;
+
+    /* Sets the default text color to white */
+    color: white;
+
+    /* Adds a background image to the webpage */
+    background-image: url("assets/matrix-style-binary-code-digital-background-with-falling-numbers_1017-25336.avif");
+
+    /*background : linear-gradient(to top , skyblue, light green); */
+
+    /* Prevents the background image from repeating */
+    background-repeat: no-repeat;
+
+    /* Keeps the background image fixed while scrolling */
+    background-attachment: fixed;
+
+    /* Positions the background image at the center */
+    background-position: center;
+
+    /* Resizes the image to cover the entire background */
+    background-size: cover;
+}
+
+/* Styles the main heading */
+h1 {
+    /* Aligns the heading in the center */
+    text-align: center;
+
+    /* Applies the Press Start 2P font */
+    font-family: "Press Start 2P";
+
+    /* Adds a dotted border at the top */
+    border-top-style: dotted;
+
+    /* Adds a dotted border at the bottom */
+    border-bottom-style: dotted;
+
+    /* Adds a double-line border on the left */
+    border-left-style: double;
+
+    /* Sets the left border thickness to 10px */
+    border-left-width: 10px;
+
+    /* Sets the left border color to red */
+    border-left-color: red;
+}
+
+/* Styles the paragraph */
+p {
+    /* Makes the paragraph text italic */
+    font-style: italic;
+
+    /* Makes the paragraph text bold */
+    font-weight: bold;
+
+    /* Changes the paragraph text color to green */
+    color: #eb0909;
+
+    /* Aligns the paragraph text in the center */
+    text-align: center;
+
+    /* Adds an outset (3D raised) border */
+    border-style: outset;
+
+    /* Sets the border thickness to 3px */
+    border-width: 3px;
+
+    /* Sets the border color to red */
+    border-color: red;
+
+    /* Rounds the corners of the border */
+    border-radius: 10px;
+
+    /* Adds 5px of space between the text and border */
+    padding: 5px;
+}
