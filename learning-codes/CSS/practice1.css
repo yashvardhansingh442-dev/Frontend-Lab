@@ -1,7 +1,49 @@
-/* Selects the element with id "box" */
+/* Q1: Styling the div using its ID */
+
+/* Selects the element with ID "box" */
 #box {
+
+    /* Sets the background color to blue */
     background-color: blue;
+
+    /* Aligns the text in the center */
     text-align: center;
+
+    /* Makes the text bold */
     font-weight: bold;
-    color:aliceblue
+
+    /* Sets the text color to aliceblue */
+    color: aliceblue;
+}
+
+
+/* Q2: Styling all three headings */
+
+/* Selects all elements having class "heading" */
+.heading {
+
+    /* Changes the heading text color to red */
+    color: red;
+
+    /* Aligns all headings in the center */
+    text-align: center;
+}
+
+
+/* Q3: Styling the green button using external CSS */
+
+/* Selects the button with class "green-button" */
+.green-button {
+
+    /* Sets the button background to green */
+    background-color: green;
+
+    /* Changes the button text color to white */
+    color: white;
+
+    /* Rounds the corners of the button */
+    border-radius: 8px;
+
+    /* Aligns the button text in the center */
+    text-align: center;
 }

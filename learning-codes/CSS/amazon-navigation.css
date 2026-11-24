@@ -11,6 +11,18 @@
 
     /* Distributes equal space between items */
     justify-content: space-between;
+    border-radius: 15px;
+    padding-left: 25px;
+
+    /* Sets the border thickness */
+    border-width: 5px;
+
+    /* Sets the border color */
+    border-color: white;
+
+    /* Makes the border visible */
+    border-style: solid;
+
 }
 
 /* Styles the Amazon logo */
@@ -39,19 +51,7 @@ button {
 /* Sets the background color of the webpage */
 body {
     background-color: cornflowerblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Styles all div containers */
-#navbar{
-    border-radius: 15px;
-    padding-left: 25px;
-
-    /* Sets the border thickness */
-    border-width: 5px;
-
-    /* Sets the border color */
-    border-color: white;
-
-    /* Makes the border visible */
-    border-style: solid;
-}

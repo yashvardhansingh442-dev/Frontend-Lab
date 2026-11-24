@@ -2,20 +2,57 @@
 <html lang="en">
 
 <head>
+    <!-- Defines the document as HTML5 -->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practice 1</title>
 
-    <!-- Linking external CSS -->
+    <!-- Makes the webpage responsive on different devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Sets the webpage title shown in the browser tab -->
+    <title>Practice Set 1</title>
+
+    <!-- Connects the external CSS file to this HTML page -->
     <link rel="stylesheet" href="practice1.css">
+
+    <!-- Starts internal CSS -->
+    <style>
+        /* Selects the blue button and sets its background */
+        .blue-button {
+            background-color: blue;
+            color: white;
+            border-radius: 8px;
+        }
+    </style>
+    <!-- Ends internal CSS -->
+
 </head>
 
 <body>
 
-    <!-- Creating a div with id "box" -->
+    <!-- Q1: Creates a div with the ID box -->
     <div id="box">
         This is my first box.
     </div>
+
+
+    <!-- Q2: Creates three headings with the same class -->
+    <h1 class="heading">This is for practice</h1>
+    <h2 class="heading">This is for practice</h2>
+    <h3 class="heading">This is for practice</h3>
+
+
+    <!-- Q3: Creates three buttons using different CSS methods -->
+
+    <!-- Uses external CSS to make the button green -->
+    <button class="green-button">Green Button</button>
+
+    <!-- Uses internal CSS to make the button blue -->
+    <button class="blue-button">Blue Button</button>
+
+    <!-- Uses inline CSS to make the button pink -->
+    <button style="background-color: pink; border-radius: 8px;">
+        Pink Button
+    </button>
 
 </body>
 </html>
