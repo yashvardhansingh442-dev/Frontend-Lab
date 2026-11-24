@@ -1,0 +1,160 @@
+
+/* GENERAL PAGE STYLING */
+
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: darkblue;
+}
+
+h2 {
+    color: #355872;
+}
+
+
+/* 1. CSS BOX MODEL */
+
+.box {
+    height: 100px;
+    width: 200px;
+
+    background-color: lightblue;
+
+    border: 3px solid black;
+
+    padding: 20px;
+
+    margin: 30px;
+}
+
+
+/* 2. HEIGHT AND WIDTH */
+
+.size-box {
+    height: 100px;
+    width: 200px;
+
+    background-color: lightgreen;
+
+    text-align: center;
+}
+
+
+/* 3. BORDER */
+
+.border-box {
+    height: 80px;
+    width: 250px;
+
+    border-width: 3px;
+    border-style: dashed;
+    border-color: black;
+
+    border-radius: 10px;
+
+    text-align: center;
+}
+
+
+/* 4. PADDING */
+
+.padding-box {
+    background-color: lightyellow;
+
+    border: 2px solid black;
+
+    padding: 30px;
+}
+
+
+/* 5. MARGIN */
+
+.margin-box {
+    background-color: lightcoral;
+
+    border: 2px solid black;
+
+    margin: 40px;
+}
+
+
+/* 6. DISPLAY PROPERTY */
+
+/* Block takes the full available width */
+.display-block {
+    display: block;
+
+    background-color: lightblue;
+}
+
+/* Inline takes only the required width */
+.display-inline {
+    display: inline;
+
+    background-color: lightgreen;
+}
+
+/* Inline-block allows width and height */
+.display-inline-block {
+    display: inline-block;
+
+    height: 50px;
+    width: 150px;
+
+    background-color: lightpink;
+}
+
+/* None completely removes the element */
+.display-none {
+    display: none;
+}
+
+
+/* 7. VISIBILITY PROPERTY */
+
+/* Element is visible */
+.visible-box {
+    background-color: lightgreen;
+
+    height: 50px;
+    width: 200px;
+
+    visibility: visible;
+}
+
+/* Element is hidden but space is reserved */
+.hidden-box {
+    background-color: red;
+
+    height: 50px;
+    width: 200px;
+
+    visibility: hidden;
+}
+
+
+/* 8. ALPHA (OPACITY) */
+
+/* Completely visible */
+.opacity-100 {
+    background-color: blue;
+
+    opacity: 1;
+}
+
+/* 50% transparency */
+.opacity-50 {
+    background-color: blue;
+
+    opacity: 0.5;
+}
+
+/* Completely transparent */
+.opacity-0 {
+    background-color: blue;
+
+    opacity: 0;
+}
