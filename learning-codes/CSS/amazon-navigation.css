@@ -1,0 +1,57 @@
+/* Styles the main navigation bar */
+#navbar {
+    height: 60px;
+    background-color: #0f1111;
+
+    /* Arranges navbar items horizontally */
+    display: flex;
+
+    /* Vertically centers all navbar items */
+    align-items: center;
+
+    /* Distributes equal space between items */
+    justify-content: space-between;
+}
+
+/* Styles the Amazon logo */
+#logo {
+    color: #f08804;
+    font-size: 25px;
+}
+
+/* Removes link underlines and changes text color */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Styles the search button */
+button {
+    background-color: #f08804;
+    color: white;
+}
+
+/* Adds space on the right side of the search section */
+#search {
+    margin-right: 100px;
+}
+
+/* Sets the background color of the webpage */
+body {
+    background-color: cornflowerblue;
+}
+
+/* Styles all div containers */
+#navbar{
+    border-radius: 15px;
+    padding-left: 25px;
+
+    /* Sets the border thickness */
+    border-width: 5px;
+
+    /* Sets the border color */
+    border-color: white;
+
+    /* Makes the border visible */
+    border-style: solid;
+}
