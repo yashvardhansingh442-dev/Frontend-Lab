@@ -1,4 +1,4 @@
-# Frontend Mastery
+# Frontend Lab
 
 > An advanced, hands-on frontend learning path: notes, exercises, and production-grade projects covering HTML, CSS, JavaScript, TypeScript, React, performance, testing, and architecture.
 
@@ -7,7 +7,7 @@
 ![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
 <!-- Add the CI badge once .github/workflows/ci.yml exists:
-![CI](https://github.com/yashvardhansingh442-dev/frontend-mastery/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/yashvardhansingh442-dev/Frontend-Lab/actions/workflows/ci.yml/badge.svg)
 -->
 
 ---
@@ -22,7 +22,6 @@
 - [Repository Structure](#repository-structure)
 - [Tech Stack](#tech-stack)
 - [Getting Started](#getting-started)
-- [Learning Log](#learning-log)
 - [Related Repositories](#related-repositories)
 - [Contributing](#contributing)
 - [License](#license)
@@ -46,7 +45,7 @@ The goal is to go beyond "how to use a framework" and understand how the browser
 
 ## How to Use This Repo
 
-1. Start at `docs/00-foundations` and work through the tracks **in order**.
+1. Start at `curriculum/` and work through the modules **in order**.
 2. In each topic folder, read the `README.md` first, then run the `examples/`.
 3. Try the `exercises/` **before** looking at `solutions/`.
 4. Build the matching project in `apps/` to apply what you learned.
@@ -77,8 +76,6 @@ Legend: ✅ complete | 🚧 in progress | ⬜ not started
 | 12 | Security and Auth | ⬜ |
 | 13 | Advanced Topics (WASM, WebGL, PWA, i18n) | ⬜ |
 
-See [ROADMAP.md](./ROADMAP.md) for detailed goals and dates.
-
 ---
 
 ## Featured Projects
@@ -101,25 +98,14 @@ Each project has its own README with screenshots, setup steps, and an `ARCHITECT
 ## Repository Structure
 
 ```
-frontend-mastery/
-├── docs/          # Learning tracks: notes, examples, exercises, solutions
+Frontend-Lab/
+├── curriculum/    # Written lessons, module by module
 ├── apps/          # Deployable showcase projects
 ├── packages/      # Shared code: ui, hooks, utils, api-client
 ├── labs/          # Experiments: mini-React, mini-router, state library
 ├── tooling/       # Shared ESLint, TypeScript, Prettier, Vitest configs
 ├── resources/     # Curated books, courses, and references
 └── .github/       # CI workflows and templates
-```
-
-Every topic folder in `docs/` follows the same pattern:
-
-```
-topic-name/
-├── README.md       # Concepts explained in my own words
-├── examples/       # Small runnable demos
-├── exercises/      # Practice problems
-├── solutions/      # Worked answers
-└── pitfalls.md     # Common mistakes and further reading
 ```
 
 ---
@@ -153,8 +139,8 @@ _This list reflects the end goal. Items are added as I reach each track._
 
 ```bash
 # Clone the repository
-git clone https://github.com/yashvardhansingh442-dev/frontend-mastery.git
-cd frontend-mastery
+git clone https://github.com/yashvardhansingh442-dev/Frontend-Lab.git
+cd Frontend-Lab
 
 # Install dependencies for all packages
 pnpm install
@@ -171,12 +157,6 @@ pnpm typecheck
 ```
 
 > The monorepo tooling (pnpm workspaces, Turborepo) is introduced once there are multiple projects. Until then, each project can be run on its own with `npm install` and `npm run dev`.
-
----
-
-## Learning Log
-
-I keep a dated record of what I learned and built in [LEARNING_LOG.md](./LEARNING_LOG.md). It shows how the repo grows over time.
 
 ---
 
