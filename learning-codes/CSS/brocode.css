@@ -9,7 +9,8 @@ body {
     /* Adds a background image to the webpage */
     background-image: url("assets/matrix-style-binary-code-digital-background-with-falling-numbers_1017-25336.avif");
 
-    /*background : linear-gradient(to top , skyblue, light green); */
+    /* Creates a gradient background from sky blue to light green */
+    /* background: linear-gradient(to top, skyblue, lightgreen); */
 
     /* Prevents the background image from repeating */
     background-repeat: no-repeat;
@@ -56,7 +57,7 @@ p {
     /* Makes the paragraph text bold */
     font-weight: bold;
 
-    /* Changes the paragraph text color to green */
+    /* Changes the paragraph text color to red */
     color: #eb0909;
 
     /* Aligns the paragraph text in the center */
@@ -76,4 +77,55 @@ p {
 
     /* Adds 5px of space between the text and border */
     padding: 5px;
+}
+
+/* Styles the element with ID box1 */
+#box1 {
+    /* Adds a 2px solid border */
+    border: 2px solid;
+
+    /* Sets the border color to grey */
+    border-color: grey;
+
+    /* Sets the width of the box to 800px */
+    width: 800px;
+
+    /* Sets the height of the box to 50px */
+    height: 50px;
+
+    /* Changes the font to Arial, Helvetica or sans-serif */
+    font-family: Arial, Helvetica, sans-serif;
+
+    /*
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+
+    These set the margin on individual sides of the box.
+
+    margin: 50px;
+    Sets 50px margin on all four sides.
+    */
+
+    /* Automatically calculates the left margin */
+    margin-left: auto;
+}
+
+/* Styles the element with ID box2 */
+#box2 {
+    /* Adds a 2px solid border */
+    border: 2px solid;
+
+    /* Sets the border color to grey */
+    border-color: grey;
+
+    /* Sets the width of the box to 800px */
+    width: 800px;
+
+    /* Sets the height of the box to 50px */
+    height: 50px;
+
+    /* Changes the font to Arial, Helvetica or sans-serif */
+    font-family: Arial, Helvetica, sans-serif;
 }
