@@ -1,0 +1,10 @@
+
+/* Adds shadow to text */
+h1 {
+    text-shadow: 4px 1px 0px grey;
+}
+
+/* Adds shadow around the element's box */
+h2 {
+    box-shadow: 5px 5px 5px black;
+}
