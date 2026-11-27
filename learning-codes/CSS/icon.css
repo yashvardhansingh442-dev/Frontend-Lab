@@ -1,0 +1,26 @@
+
+/* Amazon icon */
+.fa-amazon {
+    color: #FF9900;
+}
+
+/* YouTube icon */
+.fa-youtube {
+    color: red;
+}
+
+/* Twitter icon */
+.fa-twitter {
+    color: rgb(116, 192, 252);
+}
+
+/* Remove underline from links */
+a {
+    text-decoration: none;
+}
+
+/* Icon size and spacing */
+.fa-brands {
+    font-size: 50px;
+    margin: 10px;
+}
