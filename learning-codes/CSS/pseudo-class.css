@@ -1,0 +1,52 @@
+/* Unvisited link */
+a:link {
+    color: limegreen;
+}
+
+/* Visited link */
+a:visited {
+    color: limegreen;
+}
+
+/* Mouse hovering over link */
+a:hover {
+    color: tomato;
+}
+
+/* While clicking the link */
+a:active {
+    color: aqua;
+}
+
+
+/* Mouse hovering over button */
+button:hover {
+    color: lightyellow;
+    font-weight: bold;
+    background-color: tomato;
+}
+
+/* While clicking the button */
+button:active {
+    color: yellow;
+    font-weight: bold;
+    background-color: brown;
+}
+
+
+/* Selects the first list item */
+/*
+li:nth-child(1) {
+    background-color: yellow;
+}
+*/
+
+/* Selects even list items (2, 4, 6...) */
+li:nth-child(even) {
+    background-color: yellow;
+}
+
+/* Selects odd list items (1, 3, 5...) */
+li:nth-child(odd) {
+    background-color: yellowgreen;
+}
