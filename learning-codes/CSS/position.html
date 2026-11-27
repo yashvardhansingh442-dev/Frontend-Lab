@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic page settings -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position Tutorial</title>
+
+    <!-- Connect CSS file -->
+    <link rel="stylesheet" href="position.css">
+</head>
+<body>
+
+    <!-- Page heading -->
+    <h1>CSS <code>position</code> Tutorial</h1>
+
+    <p class="intro">
+        Each section demonstrates one value of the <code>position</code> property.
+        The red box is the element being positioned.
+        Change the values in <code>position.css</code> to experiment.
+    </p>
+
+
+    <!-- 1. STATIC -->
+    <section>
+        <h2>1. position: static (default)</h2>
+
+        <p class="note">
+            Top, left and other offsets do not work with static.
+        </p>
+
+        <div class="demo">
+
+            <!-- Text before the box -->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+            <!-- Static box -->
+            <div id="static-box" class="box">static</div>
+
+            <!-- Text after the box -->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+        </div>
+    </section>
+
+
+    <!-- 2. RELATIVE -->
+    <section>
+        <h2>2. position: relative</h2>
+
+        <p class="note">
+            The box moves from its original position.
+            Its original space remains reserved.
+        </p>
+
+        <div class="demo">
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+            <!-- Relative box -->
+            <div id="relative-box" class="box">relative</div>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+        </div>
+    </section>
+
+
+    <!-- 3. ABSOLUTE -->
+    <section>
+        <h2>3. position: absolute</h2>
+
+        <p class="note">
+            The box is positioned relative to its nearest positioned parent.
+        </p>
+
+        <div class="demo">
+
+            <!-- Parent element -->
+            <div id="absolute-parent">
+
+                parent (position: relative)
+
+                <!-- Absolute box inside the parent -->
+                <div id="absolute-box" class="box">absolute</div>
+
+            </div>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+        </div>
+    </section>
+
+
+    <!-- 4. FIXED -->
+    <section>
+        <h2>4. position: fixed</h2>
+
+        <p class="note">
+            The box stays in the same place on the screen while scrolling.
+        </p>
+
+        <div class="demo">
+            <p>Scroll the page and watch the fixed box.</p>
+        </div>
+    </section>
+
+    <!-- Fixed box stays attached to the browser window -->
+    <div id="fixed-box" class="box">fixed</div>
+
+
+    <!-- 5. STICKY -->
+    <section>
+        <h2>5. position: sticky</h2>
+
+        <p class="note">
+            The box scrolls normally until it reaches the top of the scroll area.
+            Then it sticks.
+        </p>
+
+        <!-- Scrollable area -->
+        <div id="sticky-area">
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+            <!-- Sticky box -->
+            <div id="sticky-box" class="box">sticky</div>
+
+            <!-- Extra paragraphs for scrolling -->
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+            <p>Paragraph 5</p>
+            <p>Paragraph 6</p>
+            <p>Paragraph 7</p>
+            <p>Paragraph 8</p>
+
+        </div>
+    </section>
+
+</body>
+</html>

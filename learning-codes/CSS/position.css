@@ -1,0 +1,85 @@
+/* Page setup */
+body {
+    font-family: Arial, sans-serif; /* Sets the font */
+    max-width: 800px; /* Sets maximum page width */
+    margin: 0 auto; /* Centers the page */
+    padding: 20px; /* Adds space inside the page */
+    line-height: 1.5; /* Sets space between lines */
+}
+
+section {
+    margin-bottom: 40px; /* Adds space below each section */
+}
+
+.note {
+    color: #555; /* Makes text dark grey */
+    font-style: italic; /* Makes text italic */
+}
+
+.demo {
+    border: 2px dashed #999; /* Adds a dashed border */
+    padding: 10px; /* Adds space inside the demo area */
+}
+
+/* Common box style */
+.box {
+    border: 1px solid; /* Adds a 1px solid border */
+    height: 100px; /* Sets box height */
+    width: 100px; /* Sets box width */
+    background-color: tomato; /* Sets background color */
+    color: white; /* Sets text color */
+    font-weight: bold; /* Makes text bold */
+    display: flex; /* Enables flexbox */
+    align-items: center; /* Centers content vertically */
+    justify-content: center; /* Centers content horizontally */
+}
+
+/* 1. Static */
+#static-box {
+    position: static; /* Default position */
+    top: 50px; /* Has no effect on static elements */
+    left: 50px; /* Has no effect on static elements */
+}
+
+/* 2. Relative */
+#relative-box {
+    position: relative; /* Positions the box relative to its normal position */
+    top: 30px; /* Moves the box 30px down */
+    left: 50px; /* Moves the box 50px right */
+}
+
+/* 3. Absolute */
+#absolute-parent {
+    border: 1px solid; /* Adds a border */
+    height: 300px; /* Sets parent height */
+    width: 300px; /* Sets parent width */
+    background-color: skyblue; /* Sets background color */
+    position: relative; /* Becomes the reference point for the child */
+}
+
+#absolute-box {
+    position: absolute; /* Positions the box relative to its positioned parent */
+    top: 50px; /* Places it 50px from the top */
+    left: 50px; /* Places it 50px from the left */
+}
+
+/* 4. Fixed */
+#fixed-box {
+    position: fixed; /* Keeps the box in the same place on screen */
+    bottom: 20px; /* Keeps it 20px from the bottom */
+    right: 20px; /* Keeps it 20px from the right */
+}
+
+/* 5. Sticky */
+#sticky-area {
+    height: 300px; /* Sets the scroll area height */
+    overflow-y: auto; /* Adds vertical scrolling when needed */
+    background-color: #eee; /* Sets background color */
+    border: 1px solid; /* Adds a border */
+    padding: 10px; /* Adds space inside the area */
+}
+
+#sticky-box {
+    position: sticky; /* Scrolls normally, then sticks */
+    top: 10px; /* Sticks 10px from the top of the scroll area */
+}
