@@ -1,3 +1,4 @@
+/* BOX 1 */
 #box1 {
     border: 5px solid black;
     width: 500px;
@@ -6,23 +7,32 @@
     background-color: aquamarine;
 
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /* Centres text horizontally */
+    align-items: center;     /* Centres text vertically */
 
-    /* Moves the box 100px to the right */
+    /* Moves the box along the Z-axis */
     /* Rotates the box by 45 degrees */
-    /* Increases the box size by 1.2 times */
-    transform: translateX(100px) rotate(45deg) scale(1.2);
+    /* Increases the box size by 10% */
+    /* Moves the box 250px to the right */
+    transform: perspective(500px) translateZ(100px) rotate(45deg) scale(1.1) translateX(250px);
 }
 
+
+/* BOX 2 */
 #box2 {
     border: 5px solid black;
-    width: 300px;
-    height: 200px;
+    width: 200px;
+    height: 250px;
+    font-size: 50px;
+    font-weight: bold;
     background-color: coral;
+
+    display: flex;
+    justify-content: center; /* Centres text horizontally */
+    align-items: center;     /* Centres text vertically */
 
     /* Moves the box 50px down */
     /* Tilts the box horizontally */
     /* Rotates the box around the Y-axis */
-    transform: translateY(50px) skewX(20deg) rotateY(30deg);
+    transform: perspective(500px) translateY(50px) skewX(20deg) rotateY(30deg);
 }
