@@ -1,20 +1,28 @@
 #box1 {
-    border: 5px solid;             /* Adds a 5px solid border */
-    border-color: black;           /* Sets border color to black */
+    border: 5px solid black;
+    width: 500px;
+    height: 250px;
+    font-size: 150px;
+    background-color: aquamarine;
 
-    width: 500px;                  /* Sets the width of the box */
-    height: 250px;                 /* Sets the height of the box */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    text-align: center;            /* Aligns text horizontally to the center */
-    font-size: 150px;              /* Sets the text size */
+    /* Moves the box 100px to the right */
+    /* Rotates the box by 45 degrees */
+    /* Increases the box size by 1.2 times */
+    transform: translateX(100px) rotate(45deg) scale(1.2);
+}
 
-    display: flex;                 /* Enables Flexbox layout */
-    justify-content: center;       /* Centres text horizontally */
-    align-items: center;           /* Centres text vertically */
+#box2 {
+    border: 5px solid black;
+    width: 300px;
+    height: 200px;
+    background-color: coral;
 
-    background-color: aquamarine;  /* Sets the background color */
-    padding: 25px;                 /* Adds space inside the box */
-
-    transform: translateX(100px); /* Moves the box 100px to the right */
-    transform: rotate(180deg);     /* Rotates the box by 180 degrees */
+    /* Moves the box 50px down */
+    /* Tilts the box horizontally */
+    /* Rotates the box around the Y-axis */
+    transform: translateY(50px) skewX(20deg) rotateY(30deg);
 }
