@@ -1,0 +1,20 @@
+#box1 {
+    border: 5px solid;             /* Adds a 5px solid border */
+    border-color: black;           /* Sets border color to black */
+
+    width: 500px;                  /* Sets the width of the box */
+    height: 250px;                 /* Sets the height of the box */
+
+    text-align: center;            /* Aligns text horizontally to the center */
+    font-size: 150px;              /* Sets the text size */
+
+    display: flex;                 /* Enables Flexbox layout */
+    justify-content: center;       /* Centres text horizontally */
+    align-items: center;           /* Centres text vertically */
+
+    background-color: aquamarine;  /* Sets the background color */
+    padding: 25px;                 /* Adds space inside the box */
+
+    transform: translateX(100px); /* Moves the box 100px to the right */
+    transform: rotate(180deg);     /* Rotates the box by 180 degrees */
+}
